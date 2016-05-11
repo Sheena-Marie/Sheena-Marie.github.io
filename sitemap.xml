@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://sheena-marie.github.io/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://sheena-marie.github.io/pages/education.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://sheena-marie.github.io/pages/work-history.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://sheena-marie.github.io/pages/hackathons.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://sheena-marie.github.io/index.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+</urlset>
+<!--<guid value="f9b62736-aa21-4c2f-8081-a73617ac9284" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

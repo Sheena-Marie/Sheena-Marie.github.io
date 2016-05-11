@@ -1,0 +1,283 @@
+/*GOOGLE FONTS BEING USED*/
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@import url(https://fonts.googleapis.com/css?family=Marmelad);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+/*END GOOGLE FONTS*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*HERO IMAGE - one of the pictures I've taken*/
+.hero {
+  position: fixed;
+  padding-top: 68px;
+  width: 100%;
+  /*if you don't have width at 100%, then it's not going to fit the screen right (or it's going to be waaaaaaaaay too big!)*/
+  z-index: -1;
+}
+
+/*NAVBAR STUFF add the class "bar" to the font awesome icons to make sure that ONLY the ones on the nav bar change colours!!!*/
+
+
+#menu {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  /*This is REALLY important! No width 100% and the navbar goes to half the page*/
+}
+
+/*FONT AWESOME FORMATTING*/
+.bar{
+  /*This will cover all the little icons on the navbar in one hit. Don't have to do each one individually*/
+  color: #553B00;
+  position: right, center;
+  padding: 2%;
+  /*This centers the icons on the navbar so they're not sitting up the top*/
+  cursor: pointer;
+}
+
+.bar:hover {
+  text-shadow: 2px 2px 8px;
+  color: white;
+}
+/*END FONT AWESOME FORMATTING*/
+
+/*NAVBAR CSS*/
+ul {
+    list-style-type: none;
+    background-color: #AA8739;
+    font-family: 'Marmelad';
+    height: 70px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+li {
+    float: left;
+    font-family: 'Marmelad';
+    font-size: 15px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #553B00;
+    border-radius: 7px;
+    min-width:40px;
+    height: 20px;
+    padding: 25px 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #6B949E;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 6px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFE5AA;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    align-self: center;
+}
+
+.dropdown-content a {
+    color: #553B00;
+    font-family: 'Marmelad';
+    padding: 12px 16px;
+    min-height: 50px;
+    text-decoration: none;
+    display: block;
+    align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #6B949E;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*END NAVBAR STUFF*/
+
+/*TEXT FORMATTING*/
+.h1-sh {
+  font-family: 'Roboto Condensed';
+  color: #553B00;
+  align-self: center;
+  margin: 20px;
+  font-size: 1.5em;
+}
+
+.h3-sh {
+  font-family: 'Roboto Condensed';
+  color: #553B00;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 8px;
+}
+
+.h4-sh {
+  font-family: 'Roboto Condensed';
+  color: #553B00;
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 8px;
+}
+
+.title {
+  background-color: #FFE5AA;
+  font-size: 2.6em;
+  padding: 3px;
+  margin-top: 70px;
+  float: right;
+  text-align: center;
+  flex-direction: row;
+  border-radius: 7px;
+  border: solid 1px #553B00;
+}
+
+.p-sh{
+  color: #553B00;
+  font-family: 'Roboto Condensed'
+  text-align: center;
+  padding-top: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*EDUCATION details - Used for Work History as well*/
+.p-ed{
+  color: #553B00;
+  align-content: space-around;
+}
+
+.ed{
+  padding-top: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 25px;
+}
+
+.t-ed{
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.s-ed{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+/*END EDUCATION details*/
+
+.body-text {
+  background-color: #FFE5AA;
+  font-family: 'Roboto Condensed';
+  font-size: 17px;
+  width: 500px;
+  padding: 3px;
+  float: right;
+  margin-left: auto;
+  flex-wrap: wrap;
+  margin-right: 60px;
+  border-radius: 7px;
+}
+
+/*END TEXT FORMATTING*/
+
+/*Space apps icon*/
+.body-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*Space apps icon*/
+.spcapps {
+  background-color: black;
+  border-radius: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.spcapps:hover {
+  box-shadow: 0px 8px 16px 0px white;
+}
+
+/*SCROLLBOX - css found after searching on google*/
+.scrollbox {
+  width: 500px;
+  height: 500px;
+  line-height: 1.2em;
+  overflow: scroll;
+  padding: 5px;
+  background-color: #FFE5AA;
+  border: 5px double #553B00;
+  text-align: justify;
+}
+
+/*Table formatting*/
+table, th, td {
+  padding-top: 30px;
+  border-spacing: inherit;
+  border-color: #553B00;
+  border-bottom-style: solid;
+  border-width: thin;
+  color: #553B00;
+}
+
+th, td {
+  padding: 10px;
+}
+/*End Table formatting*/
+
+/*Formatting for phones*/
+@media screen and (max-width: 768px) {
+  .hero {
+    width: auto;
+    height: auto;
+  }
+
+  .fa {
+    font-size: 1.2em;
+  }
+
+  .dropdown-content a {
+    min-height: 37px;
+  }
+
+  .body-text {
+    width: 285px;
+    margin: auto;
+    float: left;
+    font-family: 'Roboto Condensed';
+  }
+
+  .scrollbox {
+    height: 380px;
+  }
+}
+/*End phone formatting*/
+
+/*General Body Formatting*/
+body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #553B00;
+}
